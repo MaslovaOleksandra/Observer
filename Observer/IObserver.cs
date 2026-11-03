@@ -1,7 +1,4 @@
-namespace IObserver
+public interface IObserver
 {
-    public interface IObserver
-    {
-        void Update(string message);
-    }
+    void Update(string message);
 }
